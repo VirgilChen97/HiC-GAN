@@ -13,12 +13,12 @@ Modify the path in train.sh to the input folder, then:
 
     bash train.sh
 
-###Test
-Modify the path of checkpoint and input folder in test.sh,, then:
+### Test
+Modify the path of checkpoint and input folder in test.sh, then:
 
     bash test.h
 
-###Options
+### options
 There are many options that you can change during the training:
 
  - **input_dir**: path to folder containing images
