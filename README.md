@@ -1,12 +1,12 @@
 # HiC-GAN
-Based on [pix2pix-tensorflow](https://github.com/affinelayer/pix2pix-tensorflow).
+Based on [pix2pix-tensorflow](https://github.com/affinelayer/pix2pix-tensorflow).  
 A machine learning based approach to enhance the resolution of HiC interaction matrix.
 
 ## How to use
 ### Envirounment
 - Tensorflow 1.4.1
 ### Prepare the data
-The high-resolution sample should have the size of 256*256, the low resolution sample should be resized to 256*256 with nearest neighbor interpolation. Then Append the low resolution sample to the high resolution sample horizontally.
+The high-resolution sample should have the size of 256*256, the low resolution sample should be resized to 256*256 with nearest neighbor interpolation. Then Append the low resolution sample to the high resolution sample horizontally.  
 ![avatar](image/l_h1.png)
 ### Train
 Modify the path in train.sh to the input folder, then:
